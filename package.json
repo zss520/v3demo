@@ -1,0 +1,79 @@
+{
+  "name": "v3demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^5.0.1",
+    "element-plus": "^1.0.1-beta.0",
+    "less-loader": "^7.1.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "scss-loader": "0.0.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue": "^3.0.4",
+    "vue-axios": "^3.2.0",
+    "vue-cookie": "^1.1.4",
+    "vue-router": "^4.0.2",
+    "vuex": "^4.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "compression-webpack-plugin": "^6.1.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^5.4.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "indent": [
+        2,
+        4
+      ],
+      "eqeqeq": [
+        2,
+        "always"
+      ],
+      "semi": [
+        2,
+        "never"
+      ],
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

@@ -1,0 +1,53 @@
+/* display */
+.inlineBlock{
+    display: inline-block !important;
+}
+.block{
+    display: block !important;
+}
+.inline{
+    display: inline !important;
+}
+
+/* float */
+.floatLeft{
+    float: left !important;
+}
+.floatRight{
+    float: right !important;
+}
+
+/* position */
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+/* font-size */
+.fontSize12{
+    font-size: 12px;
+}
+.fontSize24{
+    font-size: 24px;
+}
+.fontSize36{
+    font-size: 36px;
+}
+
+/* text-align */
+.textCenter{
+    text-align: center;
+}
+.textRight{
+    text-align: right;
+}
+
+/*cursor*/
+.cursorPointer{
+    cursor: pointer;
+}
+.cursorDefault{
+    cursor: default;
+}
